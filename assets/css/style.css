@@ -711,3 +711,9 @@ button { font: inherit; color: inherit; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
+
+/* ---------- 14. 详情面板里的整行项目封面 ---------- */
+.panel .card-cover.is-wide { aspect-ratio: 21 / 9; }
+@media (max-width: 760px) {
+  .panel .card-cover.is-wide { aspect-ratio: 16 / 10; }
+}

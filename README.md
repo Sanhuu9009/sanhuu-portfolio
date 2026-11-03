@@ -33,8 +33,12 @@ python3 -m http.server 8080   # 打开 http://localhost:8080
 | 项目 | slug | 类型 |
 | --- | --- | --- |
 | 鹭复航空 VR 科技展厅 | `vr-exhibition-hall` | 空间交互、VR |
-| 心屿 · 情绪疗愈 App | `mind-isle` | App UI |
-| 欧莱雅 Beauty for Good 包装回收 App | `loreal-beauty-for-good` | App UI |
+| Pulse · 数据分析 SaaS 看板 | `pulse-analytics` | SaaS、Web |
+| 澄单 · 企业工单与审批工作台 | `ops-workbench` | B 端后台 |
+| Brew · 手冲咖啡社区 App | `brew-coffee` | C 端 App |
+| 沉几 · 实木家具品牌官网 | `chenji-furniture` | 品牌官网 |
+| 心屿 · 情绪疗愈 App | `mind-isle` | C 端 App |
+| 欧莱雅 Beauty for Good 包装回收 App | `loreal-beauty-for-good` | C 端 App |
 
 ## 让 AI 帮你改
 
