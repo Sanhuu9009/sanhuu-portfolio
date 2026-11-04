@@ -34,9 +34,12 @@ python3 -m http.server 8080   # 打开 http://localhost:8080
 | --- | --- | --- |
 | 鹭复航空 VR 科技展厅 | `vr-exhibition-hall` | 空间交互、VR |
 | Pulse · 数据分析 SaaS 看板 | `pulse-analytics` | SaaS、Web |
+| 沉几 · 实木家具品牌官网 | `chenji-furniture` | 品牌官网 |
+| 恒野精工 · 智能制造企业官网 | `hengye-precision` | 企业官网 |
+| 拾间建筑事务所 · 官网 | `shijian-architects` | 事务所官网 |
+| 南岭能源 · 工商业光储官网 | `nanling-energy` | 企业官网 |
 | 澄单 · 企业工单与审批工作台 | `ops-workbench` | B 端后台 |
 | Brew · 手冲咖啡社区 App | `brew-coffee` | C 端 App |
-| 沉几 · 实木家具品牌官网 | `chenji-furniture` | 品牌官网 |
 | 心屿 · 情绪疗愈 App | `mind-isle` | C 端 App |
 | 欧莱雅 Beauty for Good 包装回收 App | `loreal-beauty-for-good` | C 端 App |
 

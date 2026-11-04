@@ -102,6 +102,122 @@ window.SITE_DATA = {
       links: []
     },
     {
+      slug: "chenji-furniture",
+      title: "沉几 · 实木家具品牌官网",
+      client: "自命题项目",
+      year: "2026",
+      size: "normal",
+      disciplines: ["品牌", "前端开发"],
+      summary: "实木家具品牌的官网：把「能用三十年」说清楚，而不是只放好看的图。",
+      role: "品牌梳理、视觉设计、网页设计、前端实现",
+      stack: ["Figma", "HTML/CSS"],
+      cover: "assets/projects/chenji-furniture/cover.webp",
+      placeholder: "web",
+      tone: "#B4795A",
+      body: [
+        "家具品牌官网大多只放效果图，客户真正关心的结构、用材、能不能修，反而要问客服才知道。",
+        "页面按「看 → 懂 → 约」组织：首屏只讲一件沙发，往下用四个数字解释含水率、静置时间和可修复周期，最后才是到店预约与空间搭配。",
+        "视觉上用宣纸底色、宋体标题和克制的橄榄绿，让产品和文字都能喘口气；配图使用 Pexels 的免费商用摄影（页面已标注来源），仅作版式演示。"
+      ],
+      highlights: [
+        "首屏只讲一件产品，不做自动轮播",
+        "把工艺参数（8% 含水率、90 天静置）做成主要卖点",
+        "品牌视觉从字体、色彩到版式一手定下来",
+        "无框架手写 HTML/CSS，首屏加载不到 100KB"
+      ],
+      gallery: [
+        "assets/projects/chenji-furniture/01.webp"
+      ],
+      links: []
+    },
+    {
+      slug: "hengye-precision",
+      title: "恒野精工 · 智能制造企业官网",
+      client: "自命题项目",
+      year: "2026",
+      size: "normal",
+      disciplines: ["品牌", "前端开发"],
+      summary: "给自动化产线厂商做的企业官网：把节拍、精度、交付周期摆到台面上，而不是只放设备图。",
+      role: "品牌梳理、信息架构、网页设计、前端实现",
+      stack: ["Figma", "HTML/CSS", "JavaScript"],
+      cover: "assets/projects/hengye-precision/cover.webp",
+      placeholder: "web",
+      tone: "#FF5A1F",
+      body: [
+        "B2B 企业官网的通病：首页堆满荣誉和口号，客户真正想知道的节拍、精度、交付周期，反而藏在销售发来的 PDF 里。",
+        "结构按采购决策路径重排：先看能做什么（三类产线设备），再看怎么交付（工艺验证四步），最后是预约打样。每一类设备都配一张可扫读的规格表。",
+        "视觉用石墨黑加安全橙，标题直接给结论；出厂验收数据单独做成一块深色面板，把「72 小时跑机」这件事讲成可信的证据。"
+      ],
+      highlights: [
+        "把节拍、精度、交付周期做成规格表，不上 PDF 也能判断",
+        "按采购决策顺序组织页面，最后一步才引导留资",
+        "首屏直接给出三项硬指标，不用往下翻",
+        "出厂验收数据做成独立面板，作为可信证据"
+      ],
+      gallery: [
+        "assets/projects/hengye-precision/01.webp"
+      ],
+      links: []
+    },
+    {
+      slug: "shijian-architects",
+      title: "拾间建筑事务所 · 官网",
+      client: "自命题项目",
+      year: "2026",
+      size: "normal",
+      disciplines: ["品牌", "前端开发"],
+      summary: "建筑事务所官网：不做作品集堆图，而是把「第五年长什么样」讲清楚。",
+      role: "品牌定位、版式设计、网页设计、前端实现",
+      stack: ["Figma", "HTML/CSS"],
+      cover: "assets/projects/shijian-architects/cover.webp",
+      placeholder: "web",
+      tone: "#8C6A4A",
+      body: [
+        "小事务所的官网最容易被做成图片墙：甲方看完觉得「挺好看」，但记不住这家事务所的设计观。",
+        "于是首屏先给一句判断，而不是先给作品。项目按改造类型分类，每个项目只留三条信息：类型、面积、地点。服务范围按阶段计费，写清楚交付什么。",
+        "宋体大标题、低饱和照片和大量留白，让建筑本身成为页面里最亮的东西；整站无框架实现，图片懒加载。"
+      ],
+      highlights: [
+        "首屏用观点开场，而不是作品轮播",
+        "每个项目只保留类型、面积、地点三条信息",
+        "长文排版可直接当作事务所介绍页用",
+        "手写 HTML/CSS，无框架、图片懒加载"
+      ],
+      gallery: [
+        "assets/projects/shijian-architects/01.webp"
+      ],
+      links: []
+    },
+    {
+      slug: "nanling-energy",
+      title: "南岭能源 · 工商业光储官网",
+      client: "自命题项目",
+      year: "2026",
+      size: "normal",
+      disciplines: ["品牌", "前端开发"],
+      summary: "工商业光储企业官网：先给测算，再谈设备，把收益假设写在明面上。",
+      role: "品牌梳理、信息架构、网页设计、前端实现",
+      stack: ["Figma", "HTML/CSS"],
+      cover: "assets/projects/nanling-energy/cover.webp",
+      placeholder: "web",
+      tone: "#0B2A22",
+      body: [
+        "新能源行业官网普遍爱讲装机量和愿景，客户最关心的其实是「我这块屋顶能省多少钱、几年回本」。",
+        "页面按「方案 → 测算 → 交付 → 托管」组织，每类方案给出可对比的参数和回收期区间；表单只问四个关键信息，其中电费单决定测算准不准。",
+        "深绿配荧光绿，和常见的蓝色科技风区分开；收益数字用等宽字体，强调这是算出来的，不是喊出来的。"
+      ],
+      highlights: [
+        "收益区间与测算假设写在页面上，不藏",
+        "三类方案的参数可逐项对比",
+        "表单只问四个关键信息，降低留资门槛",
+        "深绿视觉把光储企业和传统能源公司区分开"
+      ],
+      gallery: [
+        "assets/projects/nanling-energy/01.webp"
+      ],
+      links: []
+    },
+    {
       slug: "ops-workbench",
       title: "澄单 · 企业工单与审批工作台",
       client: "自命题项目",
@@ -156,35 +272,6 @@ window.SITE_DATA = {
       ],
       gallery: [
         "assets/projects/brew-coffee/01.webp"
-      ],
-      links: []
-    },
-    {
-      slug: "chenji-furniture",
-      title: "沉几 · 实木家具品牌官网",
-      client: "自命题项目",
-      year: "2026",
-      size: "normal",
-      disciplines: ["品牌", "前端开发"],
-      summary: "实木家具品牌的官网：把「能用三十年」说清楚，而不是只放好看的图。",
-      role: "品牌梳理、视觉设计、网页设计、前端实现",
-      stack: ["Figma", "HTML/CSS"],
-      cover: "assets/projects/chenji-furniture/cover.webp",
-      placeholder: "web",
-      tone: "#B4795A",
-      body: [
-        "家具品牌官网大多只放效果图，客户真正关心的结构、用材、能不能修，反而要问客服才知道。",
-        "页面按「看 → 懂 → 约」组织：首屏只讲一件沙发，往下用四个数字解释含水率、静置时间和可修复周期，最后才是到店预约与空间搭配。",
-        "视觉上用宣纸底色、宋体标题和克制的橄榄绿，让产品和文字都能喘口气；配图使用 Pexels 的免费商用摄影（页面已标注来源），仅作版式演示。"
-      ],
-      highlights: [
-        "首屏只讲一件产品，不做自动轮播",
-        "把工艺参数（8% 含水率、90 天静置）做成主要卖点",
-        "品牌视觉从字体、色彩到版式一手定下来",
-        "无框架手写 HTML/CSS，首屏加载不到 100KB"
-      ],
-      gallery: [
-        "assets/projects/chenji-furniture/01.webp"
       ],
       links: []
     },
