@@ -69,9 +69,7 @@ window.SITE_DATA = {
         "assets/projects/vr-exhibition-hall/04.webp",
         "assets/projects/vr-exhibition-hall/06.webp"
       ],
-      links: [
-        { label: "阅读项目报道", url: "https://mp.weixin.qq.com/s/weWjs1TbOzT6Hvu_hP4Lvw" }
-      ]
+      links: []
     },
     {
       slug: "pulse-analytics",
@@ -288,7 +286,7 @@ window.SITE_DATA = {
   experience: [
     {
       period: "2024",
-      client: "厦门鹭复航空科技 × 西北大学现代学院",
+      client: "厦门鹭复航空科技",
       scope: "VR 科技展厅、虚拟拆解演示、全息交互设计",
       note: "西安团队负责人，项目量级 50 万，获中国设计未来之星大赛提名奖"
     },
